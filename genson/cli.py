@@ -65,7 +65,7 @@ def parse_args():
         args.object.append(sys.stdin)
 
     if not args.schema and not args.object:
-        print('GenSON: noting to do - no schemas or objects given\n')
+        print('GenSON: nothing to do - no schemas or objects given\n')
 
         parser.print_help()
         sys.exit(1)
